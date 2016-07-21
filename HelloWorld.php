@@ -20,11 +20,11 @@ class HelloWorld
     public function say()
     {
         echo "Hola mundo<br>";
-		echo $this->getNombre();
+	echo $this->getNombre();
     }
 	
-	public function getNombre()
-	{
-		return $this->nombre;
-	}
+    public function getNombre()
+    {
+	return $this->nombre;
+    }
 }
